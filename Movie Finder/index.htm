@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Movie Finder | Raymon Manders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+
+  <body>
+
+    <header><h1>Movie Finder</h1></header>
+
+    <form id="searchbar">
+      <input type="text" id="searchbarInput" name="searchbarInput">
+      <input type="submit" value="Search by Title">
+    </form>
+
+    <nav id="filters">
+      <div>
+        <input type="checkbox" id="filter1" name="newMovieFilter" value="new" />
+        <label for="filter1">New Movies</label>
+      </div>
+      <div>
+        <input type="radio" id="filter2" name="movieFilter" value="avenger" />
+        <label for="filter1">Avenger Movies</label>
+      </div>
+      <div>
+        <input type="radio" id="filter3" name="movieFilter" value="x-men" />
+        <label for="filter1">X-Men Movies</label>
+      </div>
+      <div>
+        <input type="radio" id="filter4" name="movieFilter" value="princess" />
+        <label for="filter1">Princess Movies</label>
+      </div>
+      <div>
+        <input type="radio" id="filter5" name="movieFilter" value="batman" />
+        <label for="filter1">Batman Movies</label>
+      </div>
+      <!-- I added a "Reset Title filter" which was not in the assignment, but it seemed weird to me to not be able to undo the filters -->
+      <div>
+        <input type="radio" id="filter6" name="movieFilter" value="reset" />
+        <label for="filter1">Reset Title Filters</label>
+      </div>
+    </nav>
+
+    <main>
+      <ul id="moviesList"></ul>
+    </main>
+
+    <footer>
+      <h5>Movie Finder Assignment for Winc Academy's Front-end Development course | Raymon Manders 2022</h5>
+    </footer>
+
+    <script defer src="movies.js"></script>
+    <script defer src="moviefinder.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#searchbar {
+  padding: 10px;
+}
+
+#filters {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#filters div {
+  margin-right: 20px;
+}
+
+#moviesList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 75vh;
+}
+
+#moviesList li {
+  list-style: none;
+  margin: 20px;
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */

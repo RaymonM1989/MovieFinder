@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#searchbar {
+    padding: 10px;
+}
+
+#filters {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    div {
+        margin-right: 20px;
+    }
+}
+
+#moviesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 75vh;
+
+    li {
+        list-style: none;
+        margin: 20px;
+        font-size: 40px;
+    }
+}
+
