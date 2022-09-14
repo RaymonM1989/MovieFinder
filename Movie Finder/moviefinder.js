@@ -17,7 +17,7 @@ let yearChecked   = false;
 // Create a variable 'titleFilter' which holds the string to filter the titles by
 let titleFilter = "";
 // Create a variable 'yearFilter' which holds the year to filter the release dates by
-let yearFilter = 2014;
+const yearFilter = 2014;
 
 // Create a function 'displayMovies' which displays the movies array it's given on screen
 let displayMovies = function (filteredMovies) {
